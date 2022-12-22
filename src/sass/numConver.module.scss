@@ -1,0 +1,17 @@
+.contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  font-size: 20px;
+  text-transform: uppercase;
+  .seleccionador {
+    width: 50px;
+    background: none;
+    color: #FF0022;
+    border: 1px solid #FF0022;
+    .item {
+      background-color: #011627;
+    }
+  }
+}
